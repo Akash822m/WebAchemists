@@ -278,23 +278,7 @@ body {
     height: 24px;
   }
 
-  /* Media Queries */
-
-  /* Media Queries */
-  /* @media (max-width: 600px) { */
-    /* Adjust font size for smaller screens */
-    /* .featured-rooms h2 {
-      font-size: 18px;
-    }
-    
-    .featured-rooms .card-title {
-      font-size: 18px;
-    }
-    
-    .featured-rooms .card-text {
-      font-size: 16px;
-    }
-  } */
+ 
   /* Media Queries */
 @media (max-width: 768px) {
   /* Reduce padding for smaller screens */

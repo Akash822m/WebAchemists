@@ -210,4 +210,8 @@ nav .container {
     .container{
       flex-direction: column;
     }
+
+    .login-card{
+      width: 90%;
+    }
   }

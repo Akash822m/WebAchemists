@@ -179,13 +179,6 @@ main {
     height: 24px;
   }
 
-  /* Media Queries */
-/* @media (max-width: 768px) {
-    .member {
-      width: 100%;
-      max-width: 400px;
-    }
-  } */
 
   @media (max-width: 650px) {
     .navbar-toggler {

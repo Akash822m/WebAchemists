@@ -14,11 +14,13 @@
   <nav>
     <div class="container">
       <a class="navbar-brand" href="index.html"><img src="images/mainlogo.png" class="logo" alt="Room & Flat Finder Logo"></a>
-      <button class="navbar-toggler" type="button" id="navbarToggle" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" id="navbarToggle" aria-label="Toggle navigation" onclick="toggle()" ">
+        
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="navbar-vertical">
-        <a class="nav-linkv" id="active" href="index.html">Home</a>
+      
+      <div class="navbar-vertical" id="navbar_vertical">
+        <a class="nav-linkv"   id="active" href="index.html">Home</a>
         <a class="nav-linkv" href="rooms.html">Rooms</a>
         <a class="nav-linkv" href="about.html">About</a>
         <a class="nav-linkv"  href="contact.html">Contact</a>
@@ -26,7 +28,7 @@
       </div>
       <ul class="navbar-nav" id="navbarNav">
         <li class="nav-item">
-          <a class="nav-link active"  href="index.html">Home</a>
+          <a class="nav-link active" href="index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="rooms.html">Rooms</a>
@@ -35,7 +37,7 @@
           <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link"  href="contact.html">Contact</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="login.html">Login</a>
@@ -43,8 +45,7 @@
       </ul>
     </div>
   </nav>
-
-  <!-- Hero Section -->
+   <!-- Hero Section -->
   <header class="hero">
     <div class="container">
       <h1 class="display-4">Find Your Perfect Room or Flat</h1>
@@ -111,6 +112,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="script/togglenav.js"></script>
   <script src="script/script.js" defer></script>
 </body>
 </html>

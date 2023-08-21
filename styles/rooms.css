@@ -72,7 +72,7 @@ body {
     padding: 5px;
     text-align: center;
     text-decoration: none;
-    /* height: 60px ; */
+  
     
     border: 0.5px solid black;
     border-radius: 5px;
@@ -83,6 +83,27 @@ body {
     background-color: #333;
     color: #fff;
   }
+
+  /* Menu button styling */
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  background-color: #003366;
+  outline: none;
+}
   
 
 /* Room Showcase Styles */
@@ -236,9 +257,7 @@ body {
     .navbar-nav {
       display: none;
     }
-    .navbar-vertical{
-      display:flex;
-    }
+    
     .navbar-toggler{
       display: block;
     }
@@ -253,3 +272,5 @@ body {
       flex-direction: column;
     }
   }
+
+  
